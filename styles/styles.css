@@ -1,0 +1,216 @@
+html,
+body {background-color: #ECECEC;
+}
+ul { 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: 
+#212198;
+}
+header a:hover {
+    color: #2196F3;
+}
+header {
+    background-color: #ECECEC;
+    display:flex;
+    width: 1600px;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+header img {
+object-fit: contain;
+margin-left: 215px;
+}
+ul{
+list-style-type: none;
+}
+.navig {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 281px;
+}
+a[href="mailto:info@devstudio.com"] {
+    padding: 0px 0px 0px 344px;
+    display: flex;
+}
+a[href="tel:+380961111111"] {
+    padding:0px 215px 0px 50px;
+    display: flex;
+}
+.main-button {
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    background-color: #2F303A;
+    flex-direction: column;
+}
+.main-button button {
+    border-radius: 4px;
+    background-color:#2196F3;
+    width: 216px;
+    height: 50px;
+    border: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.main-button h1 {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.cont-about {
+height: 760px;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.about {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    height: 93px;
+    margin-top: 102px;
+}
+.soft {
+    height: 100px;
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.soft h3 {
+    margin: 0;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+padding-bottom: 10px;
+
+color: #212121;
+}
+.soft p {
+    margin: 0;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+.we-doing {
+    display: flex;
+    align-items: center;
+    width: 1170px;
+    height: 386px;
+    flex-direction: column;
+    margin-top:94px;
+    padding-bottom: 90px;
+ 
+}
+.we-doing h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin: 0;
+}
+.imgtechno {
+    display: flex;
+    justify-content:space-between;
+    padding-top:50px;
+    width: inherit;
+}
+.comand {
+height: 648px;
+background: #F5F4FA;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.comand h2 {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+padding: 94px 668px 50px 668px;
+margin: 0;
+}
+.photo-comand {
+    width: 1170px;
+    height: 378px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:102px;
+    margin: 0;
+}
+footer {
+height: 252px;
+background-color:#2F303A;
+}
+.logo-footer {
+object-fit: contain;
+padding: 60px 1240px 20px 215px;
+}
+.address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    padding: 0px 1154px 60px 215px;
+}
+.address span {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}

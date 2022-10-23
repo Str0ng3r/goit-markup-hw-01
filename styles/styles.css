@@ -11,6 +11,9 @@ letter-spacing: 0.02em;
 color: 
 #212198;
 }
+a {
+    text-decoration: none;
+}
 header a:hover {
     color: #2196F3;
 }
@@ -35,6 +38,11 @@ margin-left: 215px;
 ul{
 list-style-type: none;
 }
+.links {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
 .navig {
     display: flex;
     justify-content: space-around;
@@ -43,7 +51,7 @@ list-style-type: none;
     width: 281px;
 }
 a[href="mailto:info@devstudio.com"] {
-    padding: 0px 0px 0px 344px;
+    padding: 0px 0px 0px 600px;
     display: flex;
 }
 a[href="tel:+380961111111"] {
@@ -102,9 +110,18 @@ flex-direction: column;
 }
 .soft {
     height: 100px;
+    width: 1170px;
     display:flex;
-    flex-direction: column;
+    justify-content: space-around;
+    flex-direction: row;
     align-items:flex-start;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.soft>li{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 }
 .soft h3 {
     margin: 0;
@@ -175,8 +192,34 @@ line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
-padding: 94px 668px 50px 668px;
-margin: 0;
+padding-top: 94px;
+}
+.photo-comand h3{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.photo-comand p{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.photo-comand li{
+    width: 270px;
+    height: 386px;
+    background-color:#FFFFFF;
 }
 .photo-comand {
     width: 1170px;
@@ -189,6 +232,8 @@ margin: 0;
 footer {
 height: 252px;
 background-color:#2F303A;
+flex-direction: column;
+display: flex;
 }
 .logo-footer {
 object-fit: contain;
@@ -214,3 +259,14 @@ line-height: 24px;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
+.cardt{
+    width: 270px;
+    height: 260px;
+}
+.logotip {
+    width: 145px;
+    height: 31px;
+    padding-top: 60px;
+    padding-left: 215px;
+}
+    
